@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_score"
+    android:orientation="vertical"
+    android:padding="39dp">
+
+    <ImageView
+        android:layout_width="257dp"
+        android:layout_height="78dp"
+        android:src="@drawable/vert" />
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="188dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="6dp"
+        android:text="Your score is :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="32sp" />
+
+    <com.github.lzyzsd.circleprogress.CircleProgress
+        android:id="@+id/circle_progress"
+        android:layout_width="144dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="50dp"
+        app:circle_progress="20" />
+
+    <LinearLayout
+        android:layout_width="328dp"
+        android:layout_height="74dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Retry"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:text="Retry" />
+
+        <Button
+            android:id="@+id/Exit"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:text="Exit" />
+    </LinearLayout>
+</LinearLayout>

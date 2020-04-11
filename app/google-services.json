@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "915835756223",
+    "firebase_url": "https://test-bb960.firebaseio.com",
+    "project_id": "test-bb960",
+    "storage_bucket": "test-bb960.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915835756223:android:b7cdcec3b0afa7f496b00a",
+        "android_client_info": {
+          "package_name": "com.example.cm.app_quizz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915835756223-vfurarqv2crb0tv2qhpccaa1u63oisb3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cm.app_quizz",
+            "certificate_hash": "5c789995167732cba7abbe71f718a48a683a0e45"
+          }
+        },
+        {
+          "client_id": "915835756223-ckcj192tvtv8djbjmoha8v8jk114t7lq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqPHQPtvtC3cMU_zsog9gBPIkh7wuAEiY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915835756223-ckcj192tvtv8djbjmoha8v8jk114t7lq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
